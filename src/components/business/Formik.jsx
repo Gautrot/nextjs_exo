@@ -5,7 +5,7 @@ const Formik = (props) => {
 
   return (
     <form onSubmit={formik.handleSubmit}>
-      <div className="">
+      <div className="bg-slate-900 mb-5 p-2 rounded-lg drop-shadow-lg">
         <FormInput
           name="firstName"
           label="First name"

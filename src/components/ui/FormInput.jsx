@@ -18,7 +18,7 @@ const FormInput = (props) => {
       <input
         type={type}
         name={name}
-        className="form-input border-2 border-slate-500 rounded-lg px-4 dark:bg-slate-700"
+        className="form-input border-2 border-slate-500 rounded-lg px-4 bg-slate-700"
         placeholder={placeHolder}
         {...otherProps}
       />
